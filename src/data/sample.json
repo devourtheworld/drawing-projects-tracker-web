@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project A",
+      "description": "A drawing project focused on landscapes.",
+      "totalTime": 120,
+      "sessions": [
+        {
+          "sessionId": 1,
+          "startTime": "2023-10-01T10:00:00Z",
+          "endTime": "2023-10-01T11:00:00Z",
+          "duration": 60
+        },
+        {
+          "sessionId": 2,
+          "startTime": "2023-10-02T14:00:00Z",
+          "endTime": "2023-10-02T15:00:00Z",
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Project B",
+      "description": "A drawing project focused on portraits.",
+      "totalTime": 90,
+      "sessions": [
+        {
+          "sessionId": 1,
+          "startTime": "2023-10-03T09:00:00Z",
+          "endTime": "2023-10-03T10:30:00Z",
+          "duration": 90
+        }
+      ]
+    }
+  ]
+}
