@@ -8,12 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>Drawing Project Time Tracker</h1>
+        <h1 id="project-title">Tracking</h1>
         <p>Total Projects: <span id="totalProjects">0</span></p>
         <div id="projectList"></div>
-        <button id="addProjectButton">Add New Project</button>
-        <button id="loadFileButton">Load New File</button>
-        <button id="downloadDataButton">Download Data</button>
+        <div class="project-controls">
+            <button id="addProjectButton">Add New Project</button>
+            <button id="loadFileButton">Load New File</button>
+            <button id="downloadDataButton">Download Data</button>    
+        </div>
     </div>
     <script src="scripts/storage.js"></script>
     <script src="scripts/app.js"></script>

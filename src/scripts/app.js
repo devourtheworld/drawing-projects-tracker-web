@@ -70,12 +70,16 @@ function renderProjects() {
 
         // Display project name, total time, and action buttons
         projectRow.innerHTML = `
-            <span>${project.name}</span>
-            <span>${formatTime(project.totalTime)}</span>
-            <button class="start-stop-btn">${activeProjectId === project.id ? 'Stop' : 'Start'}</button>
-            <button class="edit-btn">Edit</button>
-            <button class="details-btn">Details</button>
-            <button class="delete-btn">Delete</button>
+            <div class="project-info">
+                <span class="project-name">${project.name}</span>
+                <span class="project-time">${formatTime(project.totalTime)}</span>
+            </div>
+            <div class="project-buttons">
+                <button class="start-stop-btn project-btn">${activeProjectId === project.id ? '❚❚' : '▶'}</button>
+                <button class="edit-btn project-btn">✎</button>
+                <button class="details-btn project-btn">𝐢</button>
+                <button class="delete-btn project-btn">✖</button>
+            </div>
         `;
 
         // Start/Stop Button
