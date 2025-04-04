@@ -64,6 +64,7 @@ h1 {
     width: 30px;
     height: 30px;
     border: 1px solid transparent;
+    background-color: #777777;
 }
 
 .square-btn:hover{
@@ -130,6 +131,8 @@ h1 {
     font-weight: bold;
     font-size: 13px;
     text-transform: uppercase;
+    border: 1px solid transparent;
+    background-color: #777777;
     padding: 5px;
 }
 
@@ -146,10 +149,14 @@ h1 {
 #addProjectButton{
     color: #c7c7c7;
     background-color: #777777;
+    border: 1px solid transparent;
+    filter: invert(0.1); 
+    transition: linear 0.4s;
 }
 
 #addProjectButton:hover{
-    background-color: #929292;
+    background-color: #494949;
+    filter: invert(0.9); 
     transition: linear 0.2s;
 }
     
@@ -170,4 +177,14 @@ h1 {
 .active-project .project-time{
     color: #155724;
     opacity: 100%;
+}
+
+.btn-icon {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.plus-btn{
+    /* filter: invert(1); Inverts the colors */
 }
