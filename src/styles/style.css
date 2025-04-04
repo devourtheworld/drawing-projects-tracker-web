@@ -3,7 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
-    background: #252525;
+    background: #464646;
 }
 
 h1 {
@@ -14,10 +14,10 @@ h1 {
     max-width: 600px;
     margin: auto;
     /* background: repeating-linear-gradient(122deg,#e49f37, #ff7e05, #155724, #333); */
-    background: repeating-radial-gradient(#474747, #383838, #2b2b2b, #252525);
+    background: linear-gradient(125deg,#4d4d4d, #2c2c2c, #2c2c2c, #2c2c2c);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.301);
 }
 
 #project-title {
@@ -27,6 +27,9 @@ h1 {
     text-align: center;
     width: 100%; 
     text-transform: uppercase;
+    color: #535353;
+    /* padding: 0px; */
+    margin: 0px;
 }
 
 .button {
@@ -43,9 +46,7 @@ h1 {
     display: flex;
 }
 
-.project-btn{
-    width: 30px;
-    height: 30px;
+.btn{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +57,22 @@ h1 {
     font-size: 16px;
     margin: 2px;
     transition: background-color 0.2s ease;
+}
+
+.square-btn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+}
+
+.square-btn:hover{
+    background-color: #b4b4b4;
+    transition: linear 0.2s;
+}
+
+.project-txt{
+    color: #808080;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -73,10 +90,11 @@ h1 {
 }
 
 #projectList{
-    background-color: #33333383;
+    background-color: #2b2b2b83;
     padding: 5px;
     border-radius: 3px;
     margin: 0 0 30px 0;
+    color: #808080;
 }
 
 .project-item {
@@ -106,6 +124,33 @@ h1 {
     font-weight: bold;
 }
 
+.project-btn{
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.project-btn:hover{
+    background-color: #b4b4b4;
+    transition: linear 0.2s;
+}
+
+.delete-btn:hover{
+    background-color: #ffa7b06e;
+    transition: 0.2s;
+}
+
+#addProjectButton{
+    color: #c7c7c7;
+    background-color: #777777;
+}
+
+#addProjectButton:hover{
+    background-color: #929292;
+    transition: linear 0.2s;
+}
+    
 .project-item:last-child {
     border-bottom: none;
 }

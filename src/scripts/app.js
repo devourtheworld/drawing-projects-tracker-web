@@ -75,10 +75,10 @@ function renderProjects() {
                 <span class="project-time">${formatTime(project.totalTime)}</span>
             </div>
             <div class="project-buttons">
-                <button class="start-stop-btn project-btn">${activeProjectId === project.id ? '❚❚' : '▶'}</button>
-                <button class="edit-btn project-btn">✎</button>
-                <button class="details-btn project-btn">𝐢</button>
-                <button class="delete-btn project-btn">✖</button>
+                <button class="start-stop-btn btn square-btn">${activeProjectId === project.id ? '❚❚' : '▶'}</button>
+                <button class="edit-btn btn square-btn">✎</button>
+                <button class="details-btn btn square-btn">𝐢</button>
+                <button class="delete-btn btn square-btn delete-btn">✖</button>
             </div>
         `;
 
