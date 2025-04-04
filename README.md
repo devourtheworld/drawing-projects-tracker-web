@@ -1,6 +1,6 @@
-# Drawing Projects Tracker Web
+# Projects Tracker
 
-A web application to track drawing projects with features to add, load, and download project data. The application is built using HTML, CSS, and JavaScript, and uses Node.js with Express for serving static files.
+A web application to track projects with features to add, load, and download project data. The application is built using HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -13,7 +13,7 @@ A web application to track drawing projects with features to add, load, and down
 
 ## Getting Started
 - Clone the repository to your local machine.
-- Open the index.html file in a web browser to run the application.
+- Open the **index.html** file in a web browser to run the application.
 - Use the provided buttons to start and stop the timer, and manage your projects.
 
 
@@ -24,16 +24,10 @@ A web application to track drawing projects with features to add, load, and down
 - **src/scripts/storage.js**: Handles local storage functionality.
 - **src/scripts/app.js**: Contains the main application logic.
 - **src/images/**: Contains PNG icons for buttons.
-- **src/clock.ico**: Favicon for the application.
+- **src/clock.ico**: Tab icon for the application.
 
 ## Development
 
 - **Icons**: Button icons are dynamically styled using CSS for fixed sizes and hover effects.
 - **Styling**: The application uses CSS transitions and gradients for a modern look.
 - **Server**: The application is served using Node.js and Express.
-
-## Future Enhancements
-
-- Add functionality to edit and delete projects.
-- Implement a database for persistent storage.
-- Add user authentication for personalized project tracking.
