@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 20px;
     background: #464646;
+    transition: linear 0.3s;
 }
 
 h1 {
@@ -95,6 +96,7 @@ h1 {
     border-radius: 3px;
     margin: 0 0 30px 0;
     color: #808080;
+    min-height: 25px;
 }
 
 .project-item {
